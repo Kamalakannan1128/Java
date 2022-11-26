@@ -17,6 +17,11 @@ public class A {
 	private void method4() {
 		System.out.println("PROGRAM STARTS SUCCESSFUL");
 	}
+	private void method5() {
+		System.out.println("PROGRAM ENDS");
+	}
+	
+	
 	
 	public static void main(String[] args) {
 		
@@ -26,5 +31,7 @@ public class A {
 		a.method2();
 		a.method3();
 		a.method4();
+		a.method5();
+ 
 	}
 }
